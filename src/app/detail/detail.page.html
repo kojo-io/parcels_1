@@ -1,0 +1,44 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-button (click)="presentModal()">
+        <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title slot="primary">Parcel Detail</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="top_div">
+    <ion-row>
+      <ion-col text-center style="color: white">
+        <h4>Pick Up Date and Time</h4>
+        <h2>09/09/2017 10:30 am</h2>
+      </ion-col>
+    </ion-row>
+  </div>
+  <div class="container_m_top">
+    <div class="listing-card">
+      <ion-row>
+        <ion-col size="8">
+          <h4>Parcel Detail</h4>
+        </ion-col>
+        <ion-col size="4">
+          <h4>GHC 25.00</h4>
+        </ion-col>
+      </ion-row>
+      <ion-item-divider class="tab-divider-2">
+      </ion-item-divider>
+      <ion-row>
+        <ion-col size="3">
+          <img style="border-radius: 5px" src="assets/images/parcel1.jpeg" >
+        </ion-col>
+        <ion-col size="9">
+          Status
+        </ion-col>
+
+      </ion-row>
+    </div>
+  </div>
+</ion-content>

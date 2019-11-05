@@ -1,0 +1,26 @@
+ion-header{
+  //padding: 10px;
+  box-shadow: none !important;
+}
+ion-toolbar{
+  --background: #1b92ff;
+  border-radius: 0;
+}
+
+ion-title{
+  font-size: 35px;
+  color: white;
+}
+
+.top_div{
+  background: #1b92ff;
+  min-height: 150px;
+}
+
+.container_m_top{
+  position: absolute;
+  z-index: 9;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: -40px;
+}

@@ -1,5 +1,7 @@
 {
   "name": "parcelUI_1",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

@@ -24,3 +24,97 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+ion-header{
+  //padding: 10px;
+  box-shadow: none !important;
+}
+
+ion-toolbar{
+  border-radius: 20px;
+ }
+
+ion-title{
+  font-size: 35px;
+  color: #1b92ff;
+}
+
+ion-content{
+  --background: transparent;
+}
+
+.listing-card-container{
+  display: block;
+  position: relative;
+  padding: 10px;
+  top: 10px;
+}
+
+.listing-card{
+  position: relative;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+  height: auto;
+  border: solid grey 0.2px;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 50px 27px -39px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 50px 27px -39px rgba(0,0,0,0.15);
+  box-shadow: 0px 50px 27px -39px rgba(0,0,0,0.15);
+  margin-bottom: 10px !important;
+}
+
+.listing-card> .content{
+  padding: 5px;
+}
+
+.listing-card> .content> .title{
+  font-size: 25px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.listing-card> .content> .body{
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.listing-card> img{
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: -5px;
+}
+
+.listing-card> span{
+  position: absolute;
+  display: block;
+  font-size: 30px;
+  bottom: -1.5px;
+  padding: 10px 10px;
+  background-color: rgba(255, 255, 255, 0.605);
+  width: 100%;
+  border-radius: 0px 0px 15px 15px;
+  font-weight: 300;
+}
+.tab-divider{
+  display: block;
+  margin-left: 30px;
+  margin-top: -30px;
+  background-color: transparent !important;
+  width: 100vw;
+}
+
+.tab-divider-1{
+  display: block;
+  margin-top: -30px;
+  background-color: transparent !important;
+  width: 100%;
+}
+
+.tab-divider-2{
+  display: block;
+  margin-top: -30px;
+  background-color: transparent !important;
+  width: 100%;
+}
